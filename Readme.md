@@ -257,11 +257,7 @@ This confirms the vulnerability and proves that `HASH_SIZE`-limited copies do no
 
 ---
 
-## 📎 Optional (for GitHub or submission)
-- Add `gdb_output.txt` with full session log
-- Add crash screenshot if visual proof is needed
-- Include this `README.md` with full repo archive
 
 Thanks again,  
-@hamza61
+hmzshn61@gmail.com
 
