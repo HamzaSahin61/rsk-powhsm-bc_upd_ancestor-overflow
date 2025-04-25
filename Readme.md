@@ -1,14 +1,16 @@
 # ✅ Final Report: Stack Overflow via `block.wa_buf` in `bc_upd_ancestor()`
 
-## 📌 Context – Reviewer Request
-The reviewer asked:
+## ✅ Summary
 
-> "HSTORE performs a limited write (memcpy(dst, src, HASH_SIZE)), so also no overflow. Please, provide a PoC without removing necessary parts of the original code."
+This document addresses the reviewer’s request by providing:
 
-This document responds with:
 - A fully working Proof-of-Concept (PoC)
-- A real crash trace (GDB)
-- Full confirmation that **no original code was modified**
+- A confirmed crash trace via GDB
+- File integrity validation (no modifications to original source code)
+
+Each of these elements is backed by reproducible technical steps, including compilation, execution, and debugger-based validation of stack corruption resulting from unbounded writes to `block.wa_buf`.
+
+A detailed breakdown follows in the sections below.
 
 
 ---
